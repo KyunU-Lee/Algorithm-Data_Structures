@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 ﻿  ex1.1.cpp
+=======
+﻿  ex1.2.cpp
+  LINK : E:\Algorithm-Data_Structures\Algorithm-Data_Structures\x64\Debug\ch1.algorithm.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
+>>>>>>> d55d09d93bc444340b895304a9a521964ada0aa7
   Algorithm-Data_Structures.vcxproj -> E:\Algorithm-Data_Structures\Algorithm-Data_Structures\x64\Debug\ch1.algorithm.exe
