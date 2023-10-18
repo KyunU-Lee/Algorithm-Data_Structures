@@ -1,0 +1,6 @@
+﻿  ex3.3.cpp
+E:\Algorithm-Data_Structures\Algorithm-Data_Structures\ch3.Exhaustive Search\ex3.3.cpp(8,11): warning C4305: '초기화 중': '__int64'에서 'int'(으)로 잘립니다.
+E:\Algorithm-Data_Structures\Algorithm-Data_Structures\ch3.Exhaustive Search\ex3.3.cpp(8,13): warning C4309: '초기화 중': 상수 값이 잘립니다.
+E:\Algorithm-Data_Structures\Algorithm-Data_Structures\ch3.Exhaustive Search\ex3.3.cpp(8,28): warning C4305: '초기화 중': '__int64'에서 'int'(으)로 잘립니다.
+E:\Algorithm-Data_Structures\Algorithm-Data_Structures\ch3.Exhaustive Search\ex3.3.cpp(8,30): warning C4309: '초기화 중': 상수 값이 잘립니다.
+  ch3.Exhaustive Search.vcxproj -> E:\Algorithm-Data_Structures\Algorithm-Data_Structures\x64\Debug\ch3.Exhaustive Search.exe
