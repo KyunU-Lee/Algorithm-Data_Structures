@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ch2.complexity and Big O", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ch3.Exhaustive Search", "ch3.Exhaustive Search\ch3.Exhaustive Search.vcxproj", "{68536AD8-5A89-49D7-A50A-22511E3DDAE2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ch4.Recursive and Divide and Conquer Algorithm", "ch4.Recursive and Divide and Conquer Algorithm\ch4.Recursive and Divide and Conquer Algorithm.vcxproj", "{5D3CCE34-56D2-4C8D-937B-1BD7ACA29770}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{68536AD8-5A89-49D7-A50A-22511E3DDAE2}.Release|x64.Build.0 = Release|x64
 		{68536AD8-5A89-49D7-A50A-22511E3DDAE2}.Release|x86.ActiveCfg = Release|Win32
 		{68536AD8-5A89-49D7-A50A-22511E3DDAE2}.Release|x86.Build.0 = Release|Win32
+		{5D3CCE34-56D2-4C8D-937B-1BD7ACA29770}.Debug|x64.ActiveCfg = Debug|x64
+		{5D3CCE34-56D2-4C8D-937B-1BD7ACA29770}.Debug|x64.Build.0 = Debug|x64
+		{5D3CCE34-56D2-4C8D-937B-1BD7ACA29770}.Debug|x86.ActiveCfg = Debug|Win32
+		{5D3CCE34-56D2-4C8D-937B-1BD7ACA29770}.Debug|x86.Build.0 = Debug|Win32
+		{5D3CCE34-56D2-4C8D-937B-1BD7ACA29770}.Release|x64.ActiveCfg = Release|x64
+		{5D3CCE34-56D2-4C8D-937B-1BD7ACA29770}.Release|x64.Build.0 = Release|x64
+		{5D3CCE34-56D2-4C8D-937B-1BD7ACA29770}.Release|x86.ActiveCfg = Release|Win32
+		{5D3CCE34-56D2-4C8D-937B-1BD7ACA29770}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
