@@ -2,9 +2,9 @@
 #include <vector>
 using namespace std;
 
-vector<int> memo;
+vector<long long> memo;
 
-int fibo(int N) {
+long long fibo(int N) {
 	if (N == 0) return 0;
 	else if (N == 1) return 0;
 	else if (N == 2) return 1;
@@ -23,12 +23,9 @@ int main() {
 
 	memo.assign(N, -1);
 
-	fibo(N);
+	fibo(N-1);
 
-	for (int i = 0; i < (int)memo.size(); ++i) {
+	for (int i = 2; i < (int)memo.size(); ++i) {
 		cout << "Fibo(" << i << ") : " << memo[i] << endl;
 	}
-
-
-
 }
