@@ -10,7 +10,8 @@ int main()
     //ch2.code2_4();
 	
 	Chapter3 ch3;
-	ch3.code3_1();
+	//ch3.code3_1();
+	ch3.code3_6();
 
 
 

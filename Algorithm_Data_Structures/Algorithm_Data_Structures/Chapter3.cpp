@@ -40,5 +40,47 @@ void Chapter3::code3_1() {
 }
 
 void Chapter3::code3_6()
-{
+{ 
+	int N, W;
+	cout << "데이터 개수=";
+    cin >> N ;
+	cout << "부분합 숫자=";
+	cin >> W;
+
+	vector<int> a(N);
+	for (int i = 0; i < N; ++i)
+	{
+		cout << "a[" << i << "]=";
+		cin >> a[i];
+	}
+
+	bool exist = false;
+	for (int bit = 0; bit < (1 << N); ++bit)
+	{
+		int sum = 0;
+		cout << "Bit=" << bit << endl;;
+		for (int i = 0; i < N; ++i)
+		{
+
+			if (bit & (1 << i)) 
+			{
+				cout << "bit & (1 <<" <<i <<") = " << bit << " & " << (1 << i) << endl;
+				sum += a[i];
+			}
+		}
+		if (sum == W)
+		{
+			cout << "sum=" << sum;
+			exist = true;
+		}
+	}
+
+	if (exist)
+		cout << "Yes" << endl;
+	else
+		cout << "No" << endl;
+
+
+
+
 }
