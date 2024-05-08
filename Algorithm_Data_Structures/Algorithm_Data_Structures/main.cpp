@@ -11,7 +11,9 @@ int main()
 	
 	Chapter3 ch3;
 	//ch3.code3_1();
-	ch3.code3_6();
+	//ch3.code3_6();
+	//ch3.ex3_5();
+	ch3.ex3_6();
 
 
 

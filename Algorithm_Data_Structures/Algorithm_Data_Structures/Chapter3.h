@@ -10,6 +10,9 @@ class Chapter3
 	void code3_1();
 	void code3_6();
 
+	void ex3_5();
+	void ex3_6();
+
 
  private:
 
