@@ -13,24 +13,63 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Chapter5">
+      <UniqueIdentifier>{5ff90459-79ff-4d91-8813-8f2b3eed1653}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter1">
+      <UniqueIdentifier>{9b65c6df-2826-4cd4-87b3-778e7b13a98a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter2">
+      <UniqueIdentifier>{5ade89f3-2317-4f1a-9379-df1d11610511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter3">
+      <UniqueIdentifier>{cb7c569e-c8bb-449e-8f0e-9a569c7e24b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter6">
+      <UniqueIdentifier>{c85996a7-7840-4f03-bc40-ad07263719c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter7">
+      <UniqueIdentifier>{c48b6590-be74-4a70-82ef-bd827503db94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter8">
+      <UniqueIdentifier>{1d64e7a1-b521-4369-8141-c921a5bfc665}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Chapter1.cpp">
+      <Filter>소스 파일\Chapter1</Filter>
+    </ClCompile>
     <ClCompile Include="Chapter2.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Chapter2</Filter>
     </ClCompile>
     <ClCompile Include="Chapter3.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Chapter3</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Chapter1.h">
+      <Filter>소스 파일\Chapter1</Filter>
+    </ClInclude>
     <ClInclude Include="Chapter2.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>소스 파일\Chapter2</Filter>
     </ClInclude>
     <ClInclude Include="Chapter3.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>소스 파일\Chapter3</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter5.hpp">
+      <Filter>소스 파일\Chapter5</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter6.hpp">
+      <Filter>소스 파일\Chapter6</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter7.hpp">
+      <Filter>소스 파일\Chapter7</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter8.hpp">
+      <Filter>소스 파일\Chapter8</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
