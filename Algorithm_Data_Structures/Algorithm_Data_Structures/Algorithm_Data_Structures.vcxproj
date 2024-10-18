@@ -134,12 +134,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Chapter1.h" />
+    <ClInclude Include="Chapter10.hpp" />
     <ClInclude Include="Chapter2.h" />
     <ClInclude Include="Chapter3.h" />
     <ClInclude Include="Chapter5.hpp" />
     <ClInclude Include="Chapter6.hpp" />
     <ClInclude Include="Chapter7.hpp" />
     <ClInclude Include="Chapter8.hpp" />
+    <ClInclude Include="Chapter9.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -7,6 +7,8 @@
 #include "Chapter6.hpp"
 #include "Chapter7.hpp"
 #include "Chapter8.hpp"
+#include "Chapter9.h"
+#include "Chapter10.hpp"
 
 int main()
 {
@@ -43,11 +45,18 @@ int main()
 	Chapter7 ch7;
 	//ch7.Code7_1();
 	//ch7.Code7_2();
-	ch7.Code7_3();
+	//ch7.Code7_3();
 
 	Chapter8 ch8;
 	//ch8.Code8_4();
-	ch8.Code8_5();
+	//ch8.Code8_5();
+
+	Chapter9 ch9;
+	//ch9.Code9_1();
+	//ch9.Code9_2();
+	
+	Chapter10 ch10;
+	ch10.Code10_5();
 
 	return 0;
 }
